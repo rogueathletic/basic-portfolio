@@ -1,0 +1,227 @@
+.li-header{
+    color: whitesmoke;
+    background: grey;
+    border: 200pt 0;
+    font-size: relative;
+    Position: absolute;
+    padding: 15pt;
+    margin-left: 200px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;   
+        box-shadow: 10px 10px 5px rgb(199, 198, 198);
+}
+li {
+    float: right;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111111;
+    color: #66cccc;
+}
+.footer{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height:60px;
+}
+.li-footer{
+    color: grey;
+    background: transparent;
+    border: 200pt 0;
+    font-size: 16px;
+    Position: absolute;
+    padding: 15pt;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.grid-container > div {
+
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+.section{
+    position: relative;
+    margin-top: 10%;
+    margin-right: 5%;
+   margin-left: 20px;
+   padding-left: 20px;
+   padding-top: 5px;
+   width: 40%;
+   float: right;
+   background-color: grey;
+   padding-bottom: 60px;
+   min-height: 100%;
+   height: auto;
+   box-shadow: 10px 10px 5px rgb(199, 198, 198);
+}
+.aside{
+    position:relative;
+    top: 0px;
+    bottom: 0;
+    width: 40%;
+    padding-left: 5px;
+    left: 800px;
+    float: right;
+    font-weight: bold;
+    color: black;
+    background: #66cccc;
+    box-shadow: 10px 10px 5px rgb(199, 198, 198);
+}
+body {
+    background-image: url(/images/background.png);
+    
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* begins script for contact form JS */
+input[type=text], select, textarea {
+    width: 60%; 
+    padding: 12px; 
+    border: 1px solid black; 
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    margin-left: 10%;
+    margin-right: 40%;
+}
+input[type=submit] {
+    background-color: grey;
+    color: #66cccc;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+input[type=submit]:hover {
+    background-color: #66cccc;
+}
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.h1-contact-form{
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.contact{
+    margin-left: 20%;
+
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+  input[type=submit] {
+    background-color: grey;
+    color: #66cccc;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+input[type=submit]:hover {
+    background-color: #66cccc;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 1px;
+}
+.h1-contact-form{
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.contact{
+    margin-left: 20%;
+}
+/*begin css for portfolio JS*/
+.portfolio{
+    max-width: 100%;
+margin-left: 20%;
+}
+    div.gallery {
+    margin-left: 3%;
+    Margin-right: 3%;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    box-shadow: 10px 10px 5px rgb(199, 198, 198);
+}
+div.gallery img {
+    width: 400px;
+    height: auto;
+}
+div.desc {
+    padding: 0px;
+    text-align: center;
+background-color: #66cccc;
+}
+/* about page content*/
+.img-about{
+    padding: 20px;
+}
+.jason-schutz-about{
+
+    width: 85%;
+    text-align: justify;
+}
+.jason-r-schutz{
+    font-size: 36px;
+    font: bolder;
+}
+.alt-pgraph{
+    list-style-type: decimal;
+}
+div.copy-main{
+    float: right;
+}
+div.profile-description1{
+    width: 500px;
+    height: auto;
+
+
+
+}
+Div.profile-description2{
+    width: 500px;
+    height: auto;
+
+  
+
+}
+div.comp{
+    float: right;
+}
+div.list{
+    text-align: justify;
+}
