@@ -198,9 +198,12 @@ background-color: #66cccc;
 .jason-r-schutz{
     font-size: 36px;
     font: bolder;
+    margin-left: 10%;
+
 }
 .alt-pgraph{
     list-style-type: decimal;
+    float: right;
 }
 div.copy-main{
     float: right;
@@ -208,16 +211,13 @@ div.copy-main{
 div.profile-description1{
     width: 500px;
     height: auto;
-
-
-
+    margin-left: 10%;
 }
 Div.profile-description2{
     width: 500px;
     height: auto;
-
-  
-
+    margin-left: 10%;
+    float: right;
 }
 div.comp{
     float: right;
